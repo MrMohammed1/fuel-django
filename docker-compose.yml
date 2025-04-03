@@ -7,7 +7,6 @@ services:
       - "5432:5432"
     volumes:
       - db_data:/var/lib/postgresql/data
-      # - ./pg_hba.conf:/var/lib/postgresql/data/pg_hba.conf
 
   redis:
     image: redis:6
@@ -31,8 +30,8 @@ services:
     environment:
       - DJANGO_SETTINGS_MODULE=fuel_route.settings
       - PYTHONUNBUFFERED=1
-      env_file:
-        - .env
+    env_file:
+      - .env
 
 volumes:
   db_data:
