@@ -43,6 +43,10 @@ jobs:
         cp .env.docker.example .env.docker
         echo "POSTGRES_PASSWORD=postgres" >> .env.docker
 
+    - name: Verify .env.docker file
+      run: |
+        cat .env.docker
+
     - name: Build and start containers
       run: |
         docker-compose up --build -d || (docker-compose logs && exit 1)
@@ -53,7 +57,14 @@ jobs:
 
     - name: Wait for containers to be ready
       run: |
-        sleep 30
+        for i in {1..60}; do
+          if docker exec task2-db-1 pg_isready -U postgres; then
+            echo "PostgreSQL is ready!"
+            break
+          fi
+          echo "Waiting for PostgreSQL to be ready... ($i/60)"
+          sleep 1
+        done
         docker ps  # Check if containers are running
 
     - name: Copy custom pg_hba.conf to PostgreSQL container
