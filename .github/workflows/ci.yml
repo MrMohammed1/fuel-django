@@ -47,6 +47,10 @@ jobs:
       run: |
         docker-compose up --build -d || (docker-compose logs && exit 1)
 
+    - name: Check logs for db service
+      run: |
+        docker-compose logs db
+
     - name: Wait for containers to be ready
       run: |
         sleep 30
