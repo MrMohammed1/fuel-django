@@ -1,8 +1,7 @@
-FROM python:3.9-slim
+FROM python:3.11.1-slim
 
 WORKDIR /app
 
-# Install system dependencies for psql and redis-cli
 RUN apt-get update && apt-get install -y \
     postgresql-client \
     redis-tools \
