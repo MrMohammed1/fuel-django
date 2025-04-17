@@ -42,7 +42,9 @@ I successfully built a Django-based API that meets all the requirements:
 ### Step 1: Clone the Repository
 Clone the repository to your local machine and navigate to the project directory:
 ```powershell
-git clone <repo-url>
+git clone https://github.com/MrMohammed1/fuel-django
+```
+```powershell
 cd fuel-django
 ```
 - **Note**: The directory name `fuel-django` is the name of this repository on GitHub.
