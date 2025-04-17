@@ -1,0 +1,938 @@
+         15037 function calls (14559 primitive calls) in 9.272 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    9.272    9.272 d:\Task2\stack2.py:180(main)
+        7    0.000    0.000    9.270    1.324 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py:160(run)
+       21    0.000    0.000    9.256    0.441 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:617(run_until_complete)
+       21    0.000    0.000    9.255    0.441 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:317(run_forever)
+        7    0.000    0.000    9.254    1.322 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py:86(run)
+       21    0.000    0.000    9.253    0.441 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:593(run_forever)
+       87    0.002    0.000    9.253    0.106 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:1842(_run_once)
+      157    0.000    0.000    6.227    0.040 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:78(_run)
+      157    0.001    0.000    6.227    0.040 {method 'run' of '_contextvars.Context' objects}
+        5    0.000    0.000    6.147    1.229 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\memcached.py:185(get)
+        7    0.001    0.000    6.144    0.878 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:435(_get_server)
+        5    0.000    0.000    6.144    1.229 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:1125(get)
+        5    0.000    0.000    6.144    1.229 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:1071(_get)
+       10    6.144    0.614    6.144    0.614 {method 'connect' of '_socket.socket' objects}
+       70    0.000    0.000    6.143    0.088 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:1385(connect)
+       70    0.000    0.000    6.142    0.088 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:1397(_get_socket)
+        6    0.000    0.000    4.108    0.685 d:\Task2\api\views.py:31(fetch_coordinate)
+       87    0.000    0.000    3.024    0.035 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:437(select)
+       94    0.001    0.000    3.023    0.032 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:799(_poll)
+      136    3.021    0.022    3.021    0.022 {built-in method _overlapped.GetQueuedCompletionStatus}
+        9    0.000    0.000    2.095    0.233 d:\Task2\api\views.py:79(process_request)
+        9    0.000    0.000    2.090    0.232 d:\Task2\api\views.py:49(get_route)
+        5    0.000    0.000    0.040    0.008 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py:1140(__aenter__)
+        5    0.000    0.000    0.040    0.008 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py:364(_request)
+        4    0.000    0.000    0.037    0.009 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:490(connect)
+        4    0.000    0.000    0.037    0.009 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:891(_create_connection)
+        4    0.000    0.000    0.037    0.009 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:1130(_create_direct_connection)
+        1    0.000    0.000    0.036    0.036 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:928(_get_ssl_context)
+        1    0.000    0.000    0.036    0.036 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:905(_make_ssl_context)
+        1    0.000    0.000    0.036    0.036 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:745(create_default_context)
+        1    0.000    0.000    0.033    0.033 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:591(load_default_certs)
+        2    0.000    0.000    0.033    0.016 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:577(_load_windows_store_certs)
+        2    0.027    0.014    0.027    0.014 {built-in method _ssl.enum_certificates}
+       46    0.000    0.000    0.012    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:789(_loop_self_reading)
+       32    0.000    0.000    0.012    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:453(recv)
+        7    0.000    0.000    0.009    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py:62(__exit__)
+        7    0.000    0.000    0.009    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py:65(close)
+       42    0.000    0.000    0.007    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:742(_register_with_iocp)
+       15    0.007    0.000    0.007    0.000 {built-in method _overlapped.CreateIoCompletionPort}
+        7    0.000    0.000    0.007    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py:58(__enter__)
+       14    0.000    0.000    0.007    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py:131(_lazy_init)
+        7    0.000    0.000    0.006    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:819(new_event_loop)
+        7    0.000    0.000    0.006    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:704(new_event_loop)
+        7    0.000    0.000    0.006    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:312(__init__)
+        5    0.000    0.000    0.006    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:276(_loop_reading)
+        7    0.000    0.000    0.006    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:631(__init__)
+        4    0.000    0.000    0.006    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:251(_data_received)
+        4    0.000    0.000    0.006    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\protocols.py:200(_feed_data_to_buffered_proto)
+        6    0.000    0.000    0.006    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\connection.py:14(__getattr__)
+        6    0.000    0.000    0.006    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\connection.py:56(__getitem__)
+        4    0.000    0.000    0.006    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:431(buffer_updated)
+        7    0.000    0.000    0.005    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:782(_make_self_pipe)
+        7    0.000    0.000    0.005    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\socket.py:616(socketpair)
+        3    0.000    0.000    0.005    0.002 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\__init__.py:34(create_connection)
+        3    0.000    0.000    0.005    0.002 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:554(_do_handshake)
+        2    0.005    0.002    0.005    0.002 {method 'load_verify_locations' of '_ssl._SSLContext' objects}
+        4    0.000    0.000    0.005    0.001 <frozen importlib._bootstrap>:1167(_find_and_load)
+       17    0.000    0.000    0.005    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\__init__.py:272(_compile)
+        2    0.000    0.000    0.005    0.002 <frozen importlib._bootstrap>:1122(_find_and_load_unlocked)
+       18    0.000    0.000    0.005    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\asgiref\sync.py:412(__call__)
+        6    0.000    0.000    0.004    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py:738(compile)
+       10    0.000    0.000    0.004    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:815(run_in_executor)
+       67    0.000    0.000    0.004    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\enum.py:689(__call__)
+       28    0.000    0.000    0.004    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\signal.py:24(_int_to_enum)
+       67    0.001    0.000    0.004    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\enum.py:1094(__new__)
+        3    0.000    0.000    0.004    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:977(do_handshake)
+        3    0.004    0.001    0.004    0.001 {method 'do_handshake' of '_ssl._SSLSocket' objects}
+       10    0.000    0.000    0.004    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py:161(submit)
+        3    0.000    0.000    0.004    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:938(start)
+        3    0.000    0.000    0.003    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\memcached.py:173(__init__)
+        3    0.000    0.000    0.003    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:604(wait)
+        5    0.000    0.000    0.003    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:288(wait)
+       32    0.003    0.000    0.003    0.000 {method 'WSARecv' of '_overlapped.Overlapped' objects}
+        4    0.000    0.000    0.003    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\functional.py:40(__get__)
+        3    0.000    0.000    0.003    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\memcached.py:35(_cache)
+       21    0.003    0.000    0.003    0.000 {method 'acquire' of '_thread.lock' objects}
+       14    0.000    0.000    0.003    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\reprlib.py:15(wrapper)
+       10    0.000    0.000    0.003    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py:180(_adjust_thread_count)
+        3    0.000    0.000    0.003    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:156(__init__)
+        2    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap>:666(_load_unlocked)
+        3    0.000    0.000    0.003    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:284(set_servers)
+       14    0.000    0.000    0.003    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_tasks.py:26(_task_repr)
+        3    0.000    0.000    0.003    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:295(<listcomp>)
+        3    0.000    0.000    0.003    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:1330(__init__)
+       12    0.003    0.000    0.003    0.000 {built-in method __new__ of type object at 0x00007FF9E1108F90}
+       14    0.000    0.000    0.003    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_tasks.py:9(_task_repr_info)
+        1    0.000    0.000    0.003    0.003 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:492(__new__)
+       12    0.000    0.000    0.003    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\__init__.py:163(match)
+        6    0.000    0.000    0.003    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:970(parse)
+        2    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap_external>:934(exec_module)
+     20/6    0.000    0.000    0.003    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:447(_parse_sub)
+     20/6    0.001    0.000    0.002    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:507(_parse)
+       14    0.000    0.000    0.002    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_futures.py:45(_future_repr_info)
+       14    0.000    0.000    0.002    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\signal.py:60(getsignal)
+       14    0.000    0.000    0.002    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\reprlib.py:52(repr)
+   224/14    0.001    0.000    0.002    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\reprlib.py:55(repr1)
+        7    0.000    0.000    0.002    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:684(close)
+        2    0.000    0.000    0.002    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\__init__.py:225(compile)
+      154    0.000    0.000    0.002    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:751(call_soon)
+        1    0.000    0.000    0.002    0.002 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\response.py:20(__init__)
+       14    0.000    0.000    0.002    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\signal.py:54(signal)
+        1    0.000    0.000    0.002    0.002 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py:13(__init__)
+        3    0.000    0.000    0.002    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\module_loading.py:7(import_string)
+        1    0.000    0.000    0.002    0.002 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\http\response.py:328(__init__)
+        3    0.000    0.000    0.002    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:108(import_module)
+        3    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:1194(_gcd_import)
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:1056(_find_spec)
+        1    0.000    0.000    0.002    0.002 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\http\response.py:99(__init__)
+    36/10    0.000    0.000    0.002    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\reprlib.py:65(_repr_iterable)
+     10/8    0.000    0.000    0.002    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\reprlib.py:83(repr_list)
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap_external>:1496(find_spec)
+    36/10    0.000    0.000    0.002    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\reprlib.py:72(<listcomp>)
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap_external>:1464(_get_spec)
+        6    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py:571(_code)
+        2    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\http\response.py:139(charset)
+        6    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1604(find_spec)
+        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1007(get_code)
+        4    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:719(_do_read)
+        2    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\functional.py:244(inner)
+        1    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\functional.py:381(_setup)
+        1    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\regex_helper.py:342(_compile)
+        8    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:564(shutdown_default_executor)
+      154    0.001    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:780(_call_soon)
+        4    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:233(_call_with_frames_removed)
+        2    0.000    0.000    0.001    0.001 {built-in method builtins.exec}
+        3    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:970(_wrap_create_connection)
+       26    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\reprlib.py:80(repr_tuple)
+        2    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:815(_resolve_host)
+       25    0.001    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\socket.py:220(__init__)
+        2    0.000    0.000    0.001    0.001 d:\Task2\api\views.py:143(get_fuel_stations)
+       21    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\socket.py:499(close)
+  610/608    0.000    0.000    0.001    0.000 {built-in method builtins.isinstance}
+        3    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:981(create_connection)
+     33/6    0.001    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py:37(_compile)
+        2    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\resolver.py:30(resolve)
+        1    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:1(<module>)
+       21    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\socket.py:495(_real_close)
+       10    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
+        1    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:564(_on_handshake_complete)
+       10    0.001    0.000    0.001    0.000 {built-in method nt.stat}
+        4    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:770(_do_read__copied)
+       21    0.001    0.000    0.001    0.000 {function socket.close at 0x0000013C722A6C00}
+       42    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:752(_register)
+        7    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\socket.py:287(accept)
+        7    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:772(_close_self_pipe)
+  275/244    0.000    0.000    0.001    0.000 {built-in method builtins.getattr}
+        2    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:860(getaddrinfo)
+       42    0.000    0.000    0.001    0.000 {function _OverlappedFuture.set_result at 0x0000013C73FA0180}
+        2    0.000    0.000    0.001    0.000 d:\Task2\api\views.py:258(haversine_distance)
+        8    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:710(_process_outgoing)
+       23    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:429(create_task)
+       10    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\futures.py:381(_set_state)
+        2    0.001    0.000    0.001    0.000 {built-in method math.atan2}
+        1    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:568(write_bytes)
+        7    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:375(_loop_writing)
+        2    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py:1108(__aexit__)
+       10    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\futures.py:345(_copy_future_state)
+        2    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py:973(close)
+       22    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:83(cancel)
+     19/3    0.000    0.000    0.001    0.000 <frozen abc>:121(__subclasscheck__)
+       22    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:644(ensure_future)
+       32    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:652(_ensure_future)
+        2    0.000    0.000    0.001    0.000 <frozen abc>:117(__instancecheck__)
+     19/3    0.001    0.000    0.001    0.000 {built-in method _abc._abc_subclasscheck}
+       15    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\asgiref\local.py:116(__getattr__)
+        2    0.000    0.000    0.001    0.000 {built-in method _abc._abc_instancecheck}
+     10/2    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\reprlib.py:108(repr_dict)
+        1    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:787(close)
+        4    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:337(write)
+        1    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:407(close)
+        2    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:1118(_create_connection_transport)
+      158    0.001    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:31(__init__)
+       20    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:91(set_result)
+        1    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:412(_close)
+       10    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\futures.py:409(wrap_future)
+        2    0.001    0.000    0.001    0.000 {built-in method builtins.print}
+        4    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:557(send)
+        1    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:378(connection_made)
+       30    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:96(_path_join)
+        1    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:608(send)
+        1    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:529(_start_handshake)
+        1    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:649(_make_ssl_transport)
+        7    0.001    0.000    0.001    0.000 {method '_accept' of '_socket.socket' objects}
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1127(get_data)
+        1    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_proto.py:60(close)
+     14/8    0.000    0.000    0.001    0.000 {built-in method builtins.__build_class__}
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:727(_compile_bytecode)
+        1    0.000    0.000    0.001    0.001 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:102(close)
+       14    0.000    0.000    0.001    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:862(close)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:604(_start_shutdown)
+        5    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:912(read)
+        2    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+        5    0.000    0.000    0.000    0.000 {method 'read' of '_ssl._SSLSocket' objects}
+        7    0.000    0.000    0.000    0.000 {method 'bind' of '_socket.socket' objects}
+  949/900    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:888(start)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\socket.py:243(__repr__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:635(_do_flush)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\memcached.py:79(set)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\scipy\spatial\_kdtree.py:353(__init__)
+       96    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\reprlib.py:143(repr_instance)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:389(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_proto.py:190(data_received)
+        5    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:476(recv_into)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:943(_connect_sock)
+       10    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\futures.py:365(_chain_future)
+      413    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       42    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:54(__init__)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py:193(_cancel_all_tasks)
+      198    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:162(__getitem__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:640(_do_shutdown)
+      113    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_futures.py:14(isfuture)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:266(__init__)
+        6    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py:509(_compile_info)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\test.py:194(get)
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:166(__new__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py:356(_build_url)
+        9    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\asgiref\sync.py:492(__get__)
+        3    0.000    0.000    0.000    0.000 {built-in method _thread.start_new_thread}
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\streams.py:164(on_eof)
+       22    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:67(_cancel_overlapped)
+      223    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:231(__next)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:939(_response_eof)
+       22    0.000    0.000    0.000    0.000 {function _OverlappedFuture.cancel at 0x0000013C73FA0040}
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:42(all_tasks)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:725(sock_connect)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:605(connect)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\test.py:227(generic)
+        1    0.000    0.000    0.000    0.000 {method 'feed_data' of 'aiohttp._http_parser.HttpParser' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method io.open_code}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\test\client.py:449(generic)
+    47/20    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:172(getwidth)
+      111    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:252(get)
+       22    0.000    0.000    0.000    0.000 {method 'cancel' of '_overlapped.Overlapped' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1146(path_stats)
+       13    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\socket.py:515(family)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:247(__init__)
+       10    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:881(_inner_done_callback)
+        4    0.000    0.000    0.000    0.000 {method 'WSASend' of '_overlapped.Overlapped' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\cookiejar.py:235(filter_cookies)
+       10    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py:328(__init__)
+       25    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\socket.py:99(_intenum_converter)
+      178    0.000    0.000    0.000    0.000 {built-in method builtins.repr}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:174(release)
+       84    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\_weakrefset.py:75(__contains__)
+       21    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:180(_run_until_complete_cb)
+        9    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\functools.py:35(update_wrapper)
+       14    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:236(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\http_writer.py:121(write_headers)
+       11    0.000    0.000    0.000    0.000 {method 'getsockname' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\cookiejar.py:158(update_cookies)
+       77    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:62(cmemcache_hash)
+       14    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\coroutines.py:50(_format_coroutine)
+        6    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\memcached.py:161(validate_key)
+        7    0.000    0.000    0.000    0.000 {method 'listen' of '_socket.socket' objects}
+       78    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\reprlib.py:126(repr_str)
+       10    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:433(acquire)
+       98    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:700(time)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:566(module_from_spec)
+        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:1080(join)
+        6    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\base.py:280(memcache_key_warnings)
+       10    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:841(shield)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:932(getpeercert)
+      561    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:533(delete)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:610(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'set_default_verify_paths' of '_ssl._SSLContext' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:849(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\base_protocol.py:60(connection_made)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\http_writer.py:69(_write)
+       11    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:265(getuntil)
+        1    0.000    0.000    0.000    0.000 {method 'getpeercert' of '_ssl._SSLSocket' objects}
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\coroutines.py:11(_is_debug_mode)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:437(cache_from_source)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:645(_release)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:1328(_Host)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:493(_init_module_attrs)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py:241(_optimize_charset)
+       10    0.000    0.000    0.000    0.000 <frozen _collections_abc>:771(get)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\_weakrefset.py:63(__iter__)
+       63    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\scipy\spatial\_kdtree.py:480(query_ball_point)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\tcp_helpers.py:24(tcp_nodelay)
+       63    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:264(__enter__)
+        1    0.000    0.000    0.000    0.000 {method 'ConnectEx' of '_overlapped.Overlapped' objects}
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:413(__init__)
+       14    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:94(closegroup)
+       70    0.000    0.000    0.000    0.000 {method 'add_done_callback' of '_asyncio.Future' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:1118(_wait_for_tstate_lock)
+       18    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\contextlib.py:284(helper)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py:197(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:207(write)
+       30    0.000    0.000    0.000    0.000 {method 'setblocking' of '_socket.socket' objects}
+    52/49    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:718(set)
+       34    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\_weakrefset.py:85(add)
+       34    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+       14    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:814(set_event_loop)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\test.py:236(request)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:1044(_stop)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:185(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:782(_make_netloc)
+       20    0.000    0.000    0.000    0.000 {method 'getresult' of '_overlapped.Overlapped' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:1390(mark_dead)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\memcached.py:1(<module>)
+        5    0.000    0.000    0.000    0.000 {method 'WSARecvInto' of '_overlapped.Overlapped' objects}
+       11    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:464(finish_recv)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\test\client.py:358(request)
+       42    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:586(_check_running)
+      256    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:1937(get_debug)
+        9    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\asgiref\sync.py:44(_restore_context)
+       70    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:1379(_check_dead)
+        1    0.000    0.000    0.000    0.000 {function KDTree.query_ball_point at 0x0000013C7F0CE840}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:670(_write_appdata)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:1021(_set)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:527(wrap_bio)
+      104    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:247(match)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:105(Client)
+       18    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\contextlib.py:141(__exit__)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:760(_encode_host)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\cookiejar.py:149(_do_expiration)
+        5    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+       10    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py:393(done)
+    89/88    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+       18    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\contextlib.py:132(__enter__)
+      233    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:517(_check_closed)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\memcached.py:16(__init__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:392(cached)
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:733(call_at)
+        9    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py:155(hostname)
+       63    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:267(__exit__)
+       12    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\enum.py:1503(__and__)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py:432(urlsplit)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:567(_get_cached)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ipaddress.py:28(ip_address)
+        8    0.000    0.000    0.000    0.000 <frozen os>:674(__getitem__)
+       10    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py:408(add_done_callback)
+       32    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\_weakrefset.py:39(_remove)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\cookiejar.py:105(clear)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:169(__enter__)
+      147    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:487(raw_host)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:822(_maintain_shutdown_locks)
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.asarray}
+       12    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\socket.py:521(type)
+       28    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\signal.py:34(_enum_to_int)
+       23    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:425(create_future)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:663(close)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:694(_do_write)
+       18    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\contextlib.py:104(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\core\fromnumeric.py:71(_wrapreduction)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\enum.py:1493(__or__)
+       36    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\asgiref\local.py:81(_lock_storage)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\response.py:131(content)
+       63    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:170(append)
+       14    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:82(opengroup)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:391(origin)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\asgiref\local.py:120(__setattr__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:866(_create)
+       48    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\futures.py:299(_get_loop)
+       72    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+       16    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py:196(_hostinfo)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\wsgi.py:65(__init__)
+       13    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py:396(_simple)
+       10    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py:428(result)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:333(__init__)
+        1    0.000    0.000    0.000    0.000 {method '_wrap_bio' of '_ssl._SSLContext' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\core\fromnumeric.py:2814(amax)
+       11    0.000    0.000    0.000    0.000 {method 'put' of '_queue.SimpleQueue' objects}
+       24    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+       10    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py:463(exception)
+        7    0.000    0.000    0.000    0.000 {built-in method time.get_clock_info}
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:555(__init__)
+       42    0.000    0.000    0.000    0.000 {built-in method sys.set_asyncgen_hooks}
+       86    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       29    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+       10    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:90(RLock)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:386(update_headers)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:147(cancel)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:50(__init__)
+        3    0.000    0.000    0.000    0.000 {method 'setsockopt' of '_socket.socket' objects}
+       14    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:697(set_event_loop)
+      341    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+       55    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:284(tell)
+        2    0.000    0.000    0.000    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+       10    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py:383(cancelled)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:709(call_later)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\_weakrefset.py:27(__exit__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\http\response.py:350(content)
+       15    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\asgiref\local.py:16(__getattr__)
+        4    0.000    0.000    0.000    0.000 {method 'getpeername' of '_socket.socket' objects}
+       87    0.000    0.000    0.000    0.000 {built-in method math.ceil}
+       25    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:1446(current_thread)
+       59    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:158(__len__)
+       77    0.000    0.000    0.000    0.000 {built-in method binascii.crc32}
+      162    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:1293(check_key)
+       21    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:784(_unregister)
+       14    0.000    0.000    0.000    0.000 {built-in method _signal.set_wakeup_fd}
+        7    0.000    0.000    0.000    0.000 {built-in method _winapi.CloseHandle}
+       14    0.000    0.000    0.000    0.000 <attrs generated hash aiohttp.client_reqrep.ConnectionKey>:1(__hash__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\typing.py:1281(__instancecheck__)
+       21    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\_weakrefset.py:37(__init__)
+        8    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:815(_control_app_writing)
+      117    0.000    0.000    0.000    0.000 {built-in method time.monotonic}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\trsock.py:73(setsockopt)
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:119(<listcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\http\response.py:30(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\streams.py:594(feed_data)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:981(unwrap)
+        3    0.000    0.000    0.000    0.000 {built-in method _warnings.warn}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1599(_get_spec)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\enum.py:1377(_missing_)
+       96    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:377(_drop_acquired_per_host)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py:365(urlparse)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\http\response.py:333(__repr__)
+       42    0.000    0.000    0.000    0.000 {built-in method _asyncio._set_running_loop}
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:1467(debug)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:748(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:179(_get_module_lock)
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:103(__init__)
+       16    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+       42    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:1922(_set_coroutine_origin_tracking)
+        5    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:523(_is_ip_address)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:630(_release_acquired)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:540(is_ip_address)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\typing.py:1544(__subclasscheck__)
+       14    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:603(weakref_handle)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\http\response.py:262(make_bytes)
+       36    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\coroutines.py:34(iscoroutine)
+      102    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _overlapped.BindLocal}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py:123(__init__)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\base.py:57(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:627(finish_connect)
+      158    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\http\response.py:72(__setitem__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_proto.py:137(set_response_params)
+        1    0.000    0.000    0.000    0.000 d:\Task2\api\views.py:179(calculate_miles_from_start)
+        1    0.000    0.000    0.000    0.000 d:\Task2\api\views.py:158(<listcomp>)
+        8    0.000    0.000    0.000    0.000 <frozen os>:748(encodekey)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ipaddress.py:1889(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\cookiejar.py:59(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:646(start)
+        1    0.000    0.000    0.000    0.000 {method 'shutdown' of '_ssl._SSLSocket' objects}
+       63    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:423(_check_closed)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:884(_stop_accept_futures)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py:1148(__aexit__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:328(connection_key)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:360(_wakeup_waiter)
+        6    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py:434(_get_literal_prefix)
+       40    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:79(groups)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:539(shutdown_asyncgens)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:409(update_auto_headers)
+       72    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py:214(_compile_charset)
+      104    0.000    0.000    0.000    0.000 {method 'clear' of 'list' objects}
+       14    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\_weakrefset.py:72(__len__)
+        5    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:515(port)
+        6    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:222(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:778(spec_from_file_location)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:132(_path_split)
+       61    0.000    0.000    0.000    0.000 {method 'fileno' of '_socket.socket' objects}
+       77    0.000    0.000    0.000    0.000 {method 'get' of '_contextvars.ContextVar' objects}
+       79    0.000    0.000    0.000    0.000 {method 'done' of '_asyncio.Future' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:615(_set_extra)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:697(__enter__)
+       50    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.RLock' objects}
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\_weakrefset.py:53(_commit_removals)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_proto.py:43(should_close)
+       87    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:880(_process_events)
+       21    0.000    0.000    0.000    0.000 {method 'set' of '_contextvars.ContextVar' objects}
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:1734(isEnabledFor)
+       67    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:696(is_running)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py:166(port)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:191(_set_nodelay)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\http\response.py:167(_content_type_for_repr)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:977(release)
+       70    0.000    0.000    0.000    0.000 {built-in method time.time}
+      102    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+       68    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+       14    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\coroutines.py:53(get_name)
+       64    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        8    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:444(_uniq)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\__init__.py:198(split)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:731(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\test\client.py:327(_base_environ)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\http_writer.py:78(write)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:924(write)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\http_writer.py:132(write_eof)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:28(_set_socket_extra)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\http.py:101(urlencode)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:732(ceil_timeout)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\async_timeout\__init__.py:135(__aexit__)
+       43    0.000    0.000    0.000    0.000 {built-in method _contextvars.copy_context}
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+       42    0.000    0.000    0.000    0.000 {method 'result' of '_asyncio.Future' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:1404(_ensure_resolved)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:249(_encode_key)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\datastructures.py:315(__getitem__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\trsock.py:18(family)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ipaddress.py:1282(__init__)
+       56    0.000    0.000    0.000    0.000 {built-in method _asyncio._get_running_loop}
+        3    0.000    0.000    0.000    0.000 <frozen _collections_abc>:778(__contains__)
+        4    0.000    0.000    0.000    0.000 {method 'write' of '_ssl.MemoryBIO' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:503(_encode_hostname)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:793(set_result)
+       21    0.000    0.000    0.000    0.000 {built-in method sys.get_asyncgen_hooks}
+        5    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:276(_acquire_restore)
+       33    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:109(__init__)
+       46    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:1509(__str__)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:41(__get__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\core\fromnumeric.py:2957(amin)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_proto.py:20(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:360(update_host)
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:487(finish_recv)
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:873(_control_ssl_reading)
+       95    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\http\request.py:103(_set_content_type_params)
+       11    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:295(checkgroupname)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py:49(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:214(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\http\response.py:189(get)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:190(strip_auth_from_url)
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_ssl._SSLSocket' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\http\response.py:41(_convert_to_charset)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\async_timeout\__init__.py:32(timeout)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:275(current_task)
+       39    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:1013(_cleanup_writer)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:89(get_extra_info)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:1019(_notify_content)
+        6    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\base.py:95(make_key)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:544(next_whole_second)
+       14    0.000    0.000    0.000    0.000 {built-in method _signal.signal}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\cookiejar.py:141(__iter__)
+        1    0.000    0.000    0.000    0.000 {aiohttp._http_writer._serialize_headers}
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:71(__init__)
+        8    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:844(_get_write_buffer_size)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:355(request_info)
+        4    0.000    0.000    0.000    0.000 {built-in method now}
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:422(get_buffer)
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:489(_set_state)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:376(is_default_port)
+       32    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:244(_verbose_message)
+        8    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\reprlib.py:157(_possibly_sorted)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:64(cancel)
+        4    0.000    0.000    0.000    0.000 {built-in method _heapq.heappush}
+        4    0.000    0.000    0.000    0.000 {method 'replace' of 'datetime.datetime' objects}
+       41    0.000    0.000    0.000    0.000 {method 'get' of '_contextvars.Context' objects}
+        7    0.000    0.000    0.000    0.000 {method 'clear' of 'collections.deque' objects}
+       22    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\http_writer.py:162(drain)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:351(port)
+       12    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py:568(isstring)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\streams.py:611(read)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\async_timeout\__init__.py:222(_do_exit)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:175(from_url)
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:565(finish_send)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\streams.py:104(__init__)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\_weakrefset.py:21(__enter__)
+       48    0.000    0.000    0.000    0.000 {method 'get_loop' of '_asyncio.Future' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\asgiref\local.py:23(__setattr__)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py:901(_prepare_headers)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\enum.py:1440(<listcomp>)
+       38    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {method 'settimeout' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\test\client.py:382(_get_path)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\_distutils_hack\__init__.py:89(find_spec)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\async_timeout\__init__.py:131(__aenter__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:422(__init__)
+       10    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py:47(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:642(_classify_pyc)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:1940(set_debug)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:957(cipher)
+       12    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:746(_normalize_path)
+       45    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:172(_path_isabs)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:307(_class_escape)
+       35    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\cgi.py:238(parse_header)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:367(_escape)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:732(verify_mode)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:481(_get_extra_info)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:99(_ipaddr_info)
+        8    0.000    0.000    0.000    0.000 <frozen os>:742(check_str)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:134(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\rest_framework\test.py:142(__init__)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_unpack_uint32)
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+        8    0.000    0.000    0.000    0.000 {method 'read' of '_ssl.MemoryBIO' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py:983(closed)
+       21    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:773(get_event_loop_policy)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\lib\function_base.py:873(copy)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ipaddress.py:1183(_ip_int_from_string)
+        6    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:954(fix_flags)
+        5    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:279(_is_owned)
+       10    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:898(_outer_done_callback)
+        4    0.000    0.000    0.000    0.000 {built-in method math.sin}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:125(release)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:711(__exit__)
+       10    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\futures.py:387(_call_check_cancel)
+        6    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+       30    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py:110(_coerce_args)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:675(_validate_timestamp_pyc)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:909(__del__)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:429(_init_buckets)
+       22    0.000    0.000    0.000    0.000 {method 'add_done_callback' of '_asyncio.Task' objects}
+       21    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:655(stop)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:740(verify_mode)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\connection.py:43(settings)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\enum.py:1357(_iter_member_by_value_)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\_weakrefset.py:17(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:367(is_absolute)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:1837(_timer_handle_cancelled)
+       48    0.000    0.000    0.000    0.000 {method 'cancelled' of '_asyncio.Future' objects}
+        3    0.000    0.000    0.000    0.000 {method 'throw' of 'generator' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:656(timer)
+        9    0.000    0.000    0.000    0.000 {built-in method sys.exc_info}
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\async_timeout\__init__.py:216(_do_enter)
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py:119(__lt__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:345(host)
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:284(get_running_loop)
+        8    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py:917(get)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py:404(_splitnetloc)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\test\client.py:61(__init__)
+        5    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py:465(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\streams.py:233(feed_data)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:321(is_ssl)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\wsgi.py:159(get_script_name)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\wsgi.py:152(get_path_info)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\conf\__init__.py:79(__getattr__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\weakref.py:369(remove)
+        6    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\base.py:29(default_key_func)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\memcached.py:15(BaseMemcachedCache)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:100(acquire)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\async_timeout\__init__.py:100(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:832(<listcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\collections\__init__.py:450(_replace)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\transports.py:277(_maybe_pause_protocol)
+       13    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ipaddress.py:1617(_ip_int_from_string)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py:216(shutdown)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\locks.py:15(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\transports.py:270(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\http_writer.py:30(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:703(_validate_authority_uri_abs_path)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\connection.py:48(configure_settings)
+       10    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        5    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:273(_release_save)
+       21    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+       19    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:73(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method _heapq.heappop}
+       14    0.000    0.000    0.000    0.000 {built-in method _signal.getsignal}
+       14    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py:31(_combine_flags)
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\reprlib.py:135(repr_int)
+       21    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:1590(main_thread)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\encodings\idna.py:145(encode)
+        3    0.000    0.000    0.000    0.000 {method 'split' of 're.Pattern' objects}
+        1    0.000    0.000    0.000    0.000 {method 'cipher' of '_ssl._SSLSocket' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\streams.py:565(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\enum.py:192(__get__)
+       28    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\enum.py:1183(_missing_)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:922(find_spec)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:370(_get_app_transport)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:1317(_make_invoke_excepthook)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:146(_merge_ssl_params)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\enum.py:773(__getattr__)
+       11    0.000    0.000    0.000    0.000 {built-in method _asyncio.get_running_loop}
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py:147(username)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:1025(with_fragment)
+        2    0.000    0.000    0.000    0.000 {method 'search' of 're.Pattern' objects}
+       21    0.000    0.000    0.000    0.000 {method 'remove_done_callback' of '_asyncio.Task' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.array}
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1032(__exit__)
+       11    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+       13    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py:166(__setitem__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:748(find_spec)
+        1    0.000    0.000    0.000    0.000 <attrs generated init aiohttp.client_reqrep.RequestInfo>:1(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\weakref.py:427(__setitem__)
+       11    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_iscased}
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1028(__enter__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py:911(urlencode)
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\wsgi.py:190(get_bytes_from_wsgi)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1421(_path_importer_cache)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:198(cb)
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:460(user)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\generic\base.py:38(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ssl.py:968(compression)
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py:184(_userinfo)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:478(password)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\base_protocol.py:81(_drain_helper)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:103(__init__)
+       23    0.000    0.000    0.000    0.000 {method 'done' of '_asyncio.Task' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\cgi.py:226(_parseparam)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\test\client.py:82(write)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:67(_relax_case)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py:405(_generate_overlap_table)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:961(_get_fingerprint)
+       16    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       22    0.000    0.000    0.000    0.000 {method 'result' of '_asyncio.Task' objects}
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:61(<setcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:533(update_expect_continue)
+       11    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py:426(_get_iscased)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:152(protocol)
+       11    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:882(_set_read_buffer_limits)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:554(keep_alive)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\test\client.py:321(__init__)
+       10    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py:398(__get_result)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\encoding.py:82(force_bytes)
+       11    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+       22    0.000    0.000    0.000    0.000 {method 'exception' of '_asyncio.Task' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:35(current_task)
+        1    0.000    0.000    0.000    0.000 <attrs generated init aiohttp.client_reqrep.ConnectionKey>:1(__init__)
+       22    0.000    0.000    0.000    0.000 {method 'cancelled' of '_asyncio.Task' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py:601(unquote_to_bytes)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:573(_get)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py:151(password)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\locks.py:21(set)
+        4    0.000    0.000    0.000    0.000 <frozen _collections_abc>:409(__subclasshook__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1103(_sanity_check)
+        1    0.000    0.000    0.000    0.000 {built-in method nt.cpu_count}
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'multidict._multidict.CIMultiDict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:55(_normalize_path_segments)
+        6    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:1199(daemon)
+        3    0.000    0.000    0.000    0.000 {method 'groupdict' of 're.Match' objects}
+        8    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_tolower}
+        9    0.000    0.000    0.000    0.000 {method 'clear' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:888(_get_read_buffer_size)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\streams.py:150(set_exception)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:709(next_addrs)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\collections\__init__.py:440(_make)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:599(_check_name_wrapper)
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:469(raw_password)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:693(add)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\transports.py:19(get_extra_info)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\streams.py:573(__len__)
+        8    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       14    0.000    0.000    0.000    0.000 {method 'cancelling' of '_asyncio.Task' objects}
+        3    0.000    0.000    0.000    0.000 {method 'get' of 'multidict._multidict.MultiDict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\streams.py:173(feed_eof)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:804(_newname)
+        6    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:418(scheme)
+       14    0.000    0.000    0.000    0.000 {method 'get_name' of '_asyncio.Task' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:447(raw_user)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\core\fromnumeric.py:72(<dictcomp>)
+        3    0.000    0.000    0.000    0.000 {method 'rsplit' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py:336(__del__)
+        3    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\enum.py:47(_is_dunder)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\enum.py:116(_iter_bits_lsb)
+        8    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:686(is_closed)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py:434(set_loop)
+        1    0.000    0.000    0.000    0.000 <frozen io>:60(__getattr__)
+        1    0.000    0.000    0.000    0.000 {method 'timestamp' of 'datetime.datetime' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\encoding.py:226(repercent_broken_unicode)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_proto.py:172(_reschedule_timeout)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:228(_acquireLock)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\transports.py:295(_maybe_resume_protocol)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:357(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'difference_update' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:692(__init__)
+        5    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\http\cookies.py:481(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method nt._path_splitroot}
+        6    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+       12    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        7    0.000    0.000    0.000    0.000 {built-in method _socket.getdefaulttimeout}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:174(get_write_buffer_size)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:534(raw_path)
+       12    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:349(_set_app_protocol)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\locks.py:167(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\functional.py:270(__setattr__)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\ipaddress.py:1854(_split_scope_id)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\abc.py:144(__init__)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:1375(debuglog)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:405(parent)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:160(_notify_release)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:85(__await__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1097(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\async_timeout\__init__.py:161(_reject)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:457(_available_connections)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\base_protocol.py:25(connected)
+        2    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\enum.py:1246(value)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:847(_set_write_buffer_limits)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:1422(close_socket)
+        6    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:237(_releaseLock)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:566(raw_query_string)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:57(add_flowcontrol_defaults)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\resolver.py:27(__init__)
+        4    0.000    0.000    0.000    0.000 {built-in method math.cos}
+        4    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        4    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\threading.py:568(is_set)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:84(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\contextlib.py:425(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\async_timeout\__init__.py:200(_reschedule)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\memcached.py:205(PyLibMCCache)
+        6    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:371(update_version)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\base_protocol.py:17(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:81(__init__)
+        9    0.000    0.000    0.000    0.000 {method 'exception' of '_asyncio.Future' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:1720(getEffectiveLevel)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:629(__init__)
+        3    0.000    0.000    0.000    0.000 d:\Task2\api\views.py:167(<genexpr>)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:274(reset_cas)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\yarl\_url.py:598(raw_fragment)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:702(_on_chunk_request_sent)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_proto.py:167(_drop_timeout)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\wsgi.py:17(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:706(_on_headers_request_sent)
+        2    0.000    0.000    0.000    0.000 {method 'split' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\transports.py:314(_set_write_buffer_limits)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\functional.py:26(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:604(_release_waiter)
+        7    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:232(key_encoder)
+        1    0.000    0.000    0.000    0.000 {built-in method _socket.inet_pton}
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py:412(_checknetloc)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:449(closed)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\memcached.py:42(get_backend_timeout)
+        7    0.000    0.000    0.000    0.000 {method 'gettimeout' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\locks.py:182(set)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:766(url)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\memcached.py:166(MemcachedCache)
+        1    0.000    0.000    0.000    0.000 {method 'getall' of 'multidict._multidict.MultiDictProxy' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\contextlib.py:431(__exit__)
+        5    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\typing.py:2211(cast)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:542(update_proxy)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:146(transport)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\base.py:40(get_key_func)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:165(__init__)
+        6    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+        2    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.locals}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:638(register)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:324(ssl)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\helpers.py:125(__await__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:122(__del__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\transports.py:14(__init__)
+        1    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\streams.py:194(is_eof)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\streams.py:582(exception)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:267(__del__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\core\fromnumeric.py:1980(shape)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:690(__contains__)
+        3    0.000    0.000    0.000    0.000 d:\Task2\api\views.py:168(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:806(__del__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py:1121(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:685(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'clear' of 'set' objects}
+        4    0.000    0.000    0.000    0.000 {method 'isascii' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\functional.py:30(__set_name__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\http_writer.py:52(transport)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:89(__del__)
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\memcached.py:31(client_servers)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\trsock.py:15(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\connector.py:388(_cleanup_closed)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:784(headers)
+        3    0.000    0.000    0.000    0.000 d:\Task2\api\views.py:144(<genexpr>)
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py:99(is_closing)
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\lib\function_base.py:869(_copy_dispatcher)
+        3    0.000    0.000    0.000    0.000 d:\Task2\api\views.py:145(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\memcached.py:231(PyMemcacheCache)
+        1    0.000    0.000    0.000    0.000 {method 'cancel' of '_asyncio.Task' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py:94(set_protocol)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\streams.py:147(exception)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:843(connection)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_proto.py:39(upgraded)
+        2    0.000    0.000    0.000    0.000 {method 'remove' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'isalpha' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'compression' of '_ssl._SSLSocket' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\contextlib.py:428(__enter__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:487(update_auth)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1122(get_filename)
+        2    0.000    0.000    0.000    0.000 {method 'add' of 'multidict._multidict.MultiDict' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py:99(_noop)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:150(MemcachedKeyTypeError)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:413(has_location)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:931(create_module)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py:1319(disable)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:93(_Error)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:144(MemcachedKeyCharacterError)
+        1    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:499(update_body_from_data)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:423(update_cookies)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:410(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\test\client.py:336(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:97(_ConnectionDeadError)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:138(MemcachedKeyError)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:141(MemcachedKeyLengthError)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:147(MemcachedKeyNoneError)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\memcache.py:153(MemcachedStringEncodingError)
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.BytesIO' objects}
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _asyncio.get_event_loop}
+        1    0.000    0.000    0.000    0.000 {method 'extend' of 'multidict._multidict.MultiDict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py:521(_check_default_executor)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py:1105(__aenter__)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client.py:453(<listcomp>)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\core\fromnumeric.py:2687(_max_dispatcher)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\core\fromnumeric.py:2831(_min_dispatcher)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\core\fromnumeric.py:1976(_shape_dispatcher)
+        1    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiohttp\client_reqrep.py:448(update_content_encoding)
+        1    0.000    0.000    0.000    0.000 C:\Users\MEGA TECH\AppData\Local\Programs\Python\Python311\Lib\site-packages\_distutils_hack\__init__.py:96(<lambda>)
+
+
